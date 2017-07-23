@@ -2,25 +2,23 @@
 <html>
     <head> 
         <title>JavaScript: Tip Calculator</title>
-        <!--<link href="style.css" rel="stylesheet"> -->
+        <link href="style.css" rel="stylesheet">
     </head>
     <body>
+        <h1>Tip Calculator</h1>
         <div id="content-div">
-            <h1>Tip Calculator</h1>
-            <p>Check Amount:</p>
-            <input type="text" id="check-amount">
-            <p>Tip Percentage %:</p>
-            <input type="text" id="tip-percentage">
+            <h2>Enter Amounts</h2>
+            Check Amount: <input type="text" id="check-amount">
+            Tip Percentage: <input type="text" id="tip-percentage">%
             <button id="calculate-tip-btn">Calculate Tip</button>
-            
-            <h2>The actual tip:
-                <div id="tip-amount"></div>
-            </h2>
-
-            <h2>Your Total Is, includidng Tip
-                <div id="total-check"> </div>
-            </h2>
         </div>
+            <hr>
+            <h1>Your Check Details:</h1>
+            <div id="total-check"> </div>
         <script src="calculatetip.js"></script>
     </body>
 </html>
+
+<!--will like to add js to clear text boxes after calculation 
+    and also print out using (like Jeff's), the amounts the user entered including the initial check amount, the % & 
+     total check amount-->

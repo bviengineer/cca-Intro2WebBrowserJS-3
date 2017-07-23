@@ -1,0 +1,14 @@
+body {
+    background-color:  lightgoldenrodyellow;
+    color: darkred;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+hr {
+   border-style: double;  
+}
+
+#content-div {
+    padding-left: 200px;
+}
