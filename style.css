@@ -5,6 +5,10 @@ body {
     font-size: 20px;
 }
 
+h1 {
+    padding-left: 50px;
+}
+
 hr {
    border-style: double;  
 }
@@ -13,3 +17,9 @@ hr {
     padding-top: 40px;
     padding-left: 200px;
 }
+
+#total-check {
+    padding-left: 90px;
+    color: midnightblue;
+    font-weight: bold;
+} 
