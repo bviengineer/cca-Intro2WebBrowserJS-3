@@ -18,6 +18,6 @@ var checkAmountTxt = document.getElementById("check-amount"), //assigns user inp
             finalCheck = checkGross + tipAmt;
             clearTxtBoxes();
                 
-            totalCheck.innerHTML = "<strong>Amount:</strong> $"+ checkGross + "<br>" + "<strong>Tip Percentage:</strong> " + tipPercentageAmt * 100 + "%" + "<br>" +
+            totalCheck.innerHTML = "<strong>Check Amount:</strong> $"+ checkGross + "<br>" + "<strong>Tip Percentage:</strong> " + tipPercentageAmt * 100 + "%" + "<br>" +
             "<strong>Tip Amount:</strong> $" + tipAmt + "<br>" + "<strong>Total Amount:</strong> $" + finalCheck;
     });
